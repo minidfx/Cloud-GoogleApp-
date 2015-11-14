@@ -12,6 +12,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Lab05</servlet-name>
 		<url-pattern>/lab05</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>DatastoreWrite</servlet-name>
+		<servlet-class>ch.hes_so.mse.cloud.DatastoreWriteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DatastoreWrite</servlet-name>
+		<url-pattern>/datastoreWrite</url-pattern>
+	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
